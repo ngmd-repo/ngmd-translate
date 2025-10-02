@@ -201,7 +201,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/docs/public",
+                "input": "assets",
                 "output": "assets/"
               },
               {
@@ -334,7 +334,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/docs-en/public",
+                "input": "assets",
                 "output": "assets/"
               },
               {
