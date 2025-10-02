@@ -1,0 +1,12 @@
+<!-- ? Сигнал локали в шаблоне нужен для того, чтобы при смене языка подтягивался перевод -->
+@switch (type()) {
+  @case ('translate-key') {
+    {{ $any(translate()) | translate: null : translateService.lang() }}
+  }
+  @case ('translate-model') {
+    {{ $any(translate()).key | translate: $any(translate()).params : translateService.lang() }}
+  }
+  @default {
+    {{ translate() }}
+  }
+}

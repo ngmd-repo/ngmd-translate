@@ -1,0 +1,58 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "typeRoots": [
+      "./types"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "strictNullChecks": false,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@ngmd/translate": ["projects/translate/src/public-api"],
+      "@app-i18n": ["./translate"],
+      "@ng-doc/generated": ["projects/docs/ng-doc/docs/index.ts"],
+      "@ng-doc/generated/*": ["projects/docs/ng-doc/docs/*"],
+      "@docs-core/*": ["projects/docs/src/app/core/*"],
+      "@ng-doc-en/generated": ["projects/docs-en/ng-doc/docs-en/index.ts"],
+      "@ng-doc-en/generated/*": ["projects/docs-en/ng-doc/docs-en/*"],
+      "@docs-core-en/*": ["projects/docs-en/src/app/core/*"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "references": [
+    {
+      "path": "./projects/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/docs/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/docs-en/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/docs-en/tsconfig.spec.json"
+    }
+  ]
+}

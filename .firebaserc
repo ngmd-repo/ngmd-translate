@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "ngmd-translate-64a9c"
+  },
+  "targets": {
+    "ngmd-translate": {
+      "hosting": {
+        "docs": [
+          "ngmd-translate-64a9c"
+        ],
+        "docs-en": [
+          "ngmd-translate-en"
+        ]
+      }
+    }
+  }
+}

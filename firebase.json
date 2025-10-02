@@ -1,0 +1,24 @@
+{
+  "hosting": [
+    {
+      "site": "ngmd-translate-64a9c",
+      "public": "dist/docs/browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    },
+    {
+      "site": "ngmd-translate-en",
+      "public": "dist/docs-en/browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    }
+  ]
+}
