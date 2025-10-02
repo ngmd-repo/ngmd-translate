@@ -33,12 +33,10 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-README.md
 /projects/docs/ng-doc
 /projects/docs-en/ng-doc
 firebase-debug.log
 pglite-debug.log
-README(old).md
 .npmrc
 /.firebase
 
