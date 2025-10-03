@@ -359,6 +359,7 @@
             ],
             "styles": [
               "node_modules/@ng-doc/app/styles/global.css",
+              "projects/docs/src/styles.scss",
               "projects/docs-en/src/styles.scss"
             ]
           },
