@@ -1,0 +1,12 @@
+import { NgDocPage } from '@ng-doc/core';
+
+import FeaturesCategory from '../ng-doc.category';
+
+const TranslationTranspilerPage: NgDocPage = {
+  title: 'Translation Transpiler',
+  mdFile: './index.md',
+  category: FeaturesCategory,
+  order: 1,
+};
+
+export default TranslationTranspilerPage;

@@ -4,4 +4,5 @@ export {
   isTranslateKey,
   isTranslateModel,
   isTranslatePath,
+  getPlatformLanguage
 } from './translate.handlers';

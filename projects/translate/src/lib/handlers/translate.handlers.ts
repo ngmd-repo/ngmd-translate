@@ -1,4 +1,4 @@
-import { translate } from '@jsverse/transloco';
+import { translate, getBrowserLang } from '@jsverse/transloco';
 import { TranslateKey } from 'i18n';
 
 import { TOptionalTranslate } from '../components';
@@ -39,4 +39,12 @@ export function isOptionalTranslate(value: unknown): value is TOptionalTranslate
   const isString: boolean = typeof value === 'string';
 
   return isString || isTranslateModel(value);
+}
+
+export function isServer(): boolean {
+  return typeof window === 'undefined';
+}
+
+export function getPlatformLanguage(value: string): string {
+  return !isServer() ? getBrowserLang() : value;
 }

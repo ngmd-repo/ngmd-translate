@@ -8,4 +8,5 @@ export const HelpersKeywords: Record<string, NgDocGlobalKeyword> = makeModuleKey
   'isTranslateKey',
   'isTranslateModel',
   'isOptionalTranslate',
+  'getPlatformLanguage',
 ]);

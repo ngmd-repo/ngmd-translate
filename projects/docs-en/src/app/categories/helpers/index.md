@@ -127,3 +127,20 @@ function isOptionalTranslate(value: unknown): value is TOptionalTranslate;
   isOptionalTranslate(1); // false
   isOptionalTranslate(null); // false
 ```
+
+#### getPlatformLanguage
+
+Determines language depending on the runtime environment (browser or server). In browser environment returns language from `navigator.language`, in server environment returns the passed value.
+
+**Interface**
+
+```ts
+function getPlatformLanguage(value: string): string;
+```
+
+**Usage**
+
+```ts
+  // In server environment (SSR)
+  getPlatformLanguage(process.env.ACCEPT_LANGUAGE); // returns passed value
+```
