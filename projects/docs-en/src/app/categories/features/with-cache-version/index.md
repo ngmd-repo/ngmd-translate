@@ -38,8 +38,7 @@ If `version.json` file is unavailable, current timestamp is used.
 
 Enable versioning in `provideTranslate` configuration:
 
-```ts
-// app.config.ts
+```ts name="app.config.ts" {7}
 import { provideTranslate } from '@ngmd/translate';
 
 export const appConfig: ApplicationConfig = {

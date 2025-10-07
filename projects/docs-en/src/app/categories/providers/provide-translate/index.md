@@ -8,7 +8,7 @@ Imported from `@ngmd/translate`
 
 ### Description
 
-Provider function for registering the translation library. Under the hood uses [transloco](https://jsverse.gitbook.io/transloco/) library for translation handling.
+Provider function for registering the translation library. Under the hood uses `transloco` library for translation handling.
 
 ### Interface
 

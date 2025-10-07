@@ -38,8 +38,7 @@ GET /assets/i18n/en.json?v=1.2.3
 
 Включите версионирование в конфигурации `provideTranslate`:
 
-```ts
-// app.config.ts
+```ts name="app.config.ts" {7}
 import { provideTranslate } from '@ngmd/translate';
 
 export const appConfig: ApplicationConfig = {
