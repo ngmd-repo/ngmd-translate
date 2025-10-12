@@ -20,6 +20,7 @@
     "localization",
     "transloco",
     "localize",
+    "i18n",
     "@ngmd"
   ],
   "dependencies": {
