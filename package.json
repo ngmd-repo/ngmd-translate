@@ -1,5 +1,5 @@
 {
-  "name": "lib-translate",
+  "name": "ngmd-translate",
   "version": "0.0.1",
   "scripts": {
     "-------APP-------": "",
@@ -11,10 +11,8 @@
     "test": "ng test",
     "prepare": "husky",
     "-------LIBRARY-------": "",
-    "lib:watch": "ng build translate --watch",
     "lib:dev": "ng build translate --configuration=development",
     "lib:build": "ng build translate --configuration production",
-    "lib:pack": "cd dist/translate && npm pack",
     "-------DOCS-------": "",
     "docs:dev": "ng s docs",
     "docs:build": "ng b docs --clear-screen=true",
