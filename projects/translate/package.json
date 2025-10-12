@@ -1,13 +1,17 @@
 {
   "name": "@ngmd/translate",
-  "version": "0.0.3",
+  "version": "$(version)",
   "license": "MIT",
   "author": {
     "email": "sxemax1@gmail.com",
     "name": "Maxim Demidov"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "url": "https://github.com/ngmd-repo/ngmd-translate"
   },
   "contributors": [],
   "keywords": [
